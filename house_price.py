@@ -55,7 +55,7 @@ if __name__ == '__main__':
     # Adds a layer instance on top of the layer stack
     model.add(Dense(units=64, kernel_initializer='uniform', activation='relu', input_dim=17))
     model.add(Dense(units=16, kernel_initializer='uniform', activation='relu'))
-    model.add(Dense(units=1, kernel_initializer='uniform', activation='relu'))
+    model.add(Dense(units=1, kernel_initializer='uniform', activation='linear'))
 
     # Configures the model for training
     model.compile(optimizer=Adam(lr=0.001), loss='mse', metrics=['mean_absolute_error'])
@@ -96,12 +96,12 @@ if __name__ == '__main__':
         plt.clf()
 
         # Creates the Price plot
-        plt.plot(predicted_price[100:125], label='Price (training data)')
-        plt.plot(actual_price[100:125], label='Price (validation data)')
+        plt.plot(predicted_price[-25:], label='Price (training data)')
+        plt.plot(actual_price[-25:], label='Price (validation data)')
         plt.ticklabel_format(axis="y", style="plain", scilimits=(0, 0), useOffset=False)
         plt.axis([
             1, 25,
-            0, max(predicted_price[100:125] + actual_price[100:125])
+            0, max(predicted_price[-25:] + actual_price[-25:])
         ])
         plt.title('Epoch #{}'.format(epoch + 1))
         plt.ylabel('Price value')
