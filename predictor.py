@@ -1,5 +1,5 @@
 """
-House price prediction - Deep Learning and Artificial Neural Networks
+House prices prediction - Deep Learning and Artificial Neural Networks
 """
 
 import os
