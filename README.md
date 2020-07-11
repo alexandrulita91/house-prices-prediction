@@ -1,4 +1,4 @@
-# Housing prices prediction
+# House price prediction
 Learn how to use **Deep Learning** to predict housing prices.
 
 ## Requirements
