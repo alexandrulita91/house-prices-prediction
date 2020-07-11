@@ -1,5 +1,5 @@
-# House price prediction
-Learn how to use **Deep Learning** to predict house prices.
+# Housing prices prediction
+Learn how to use **Deep Learning** to predict housing prices.
 
 ## Requirements
 First of all, you need Python **3.6** or **3.7** to run the script. Next, install the required packages using pipenv.
