@@ -109,3 +109,7 @@ if __name__ == '__main__':
         plt.legend(loc="upper left")
         plt.savefig('recording/price/plot_{}.png'.format(epoch + 1))
         plt.clf()
+
+    # Computes the error rate
+    error = abs(predicted_price - actual_price) / actual_price
+    print("Error rate: {} ".format(np.mean(error)))
