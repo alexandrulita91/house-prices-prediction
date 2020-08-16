@@ -1,5 +1,5 @@
 # House prices prediction
-Housing prices are an important reflection of the economy, and housing price ranges are of great interest for both buyers and sellers. Property experts make their house price predictions generally for the year ahead, sometimes for a couple of years.
+Housing prices are an important reflection of the economy, and housing price ranges are of great interest to both buyers and sellers. Property experts make their house price predictions generally for the year ahead, sometimes for a couple of years.
 
 ## Requirements
 - [Python 3.6 or 3.7](https://www.python.org/downloads/release/python-360/)
