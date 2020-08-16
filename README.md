@@ -20,6 +20,9 @@ More details can be found in [this](https://www.cs.toronto.edu/~hinton/absps/Nat
 You can train the model for house prices prediction using the following command:
 - `pipenv run python dl_houses.py`
 
+## Demo video
+https://www.youtube.com/watch?v=T61upnn_2pU
+
 ## Improvement ideas
 - improve the code quality
 - remove unnecessary comments
