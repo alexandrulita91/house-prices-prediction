@@ -22,7 +22,3 @@ You can install the required Python packages using the following command:
 ## How to train the model
 You can train the model for house prices prediction using the following command:
 - `pipenv run python predictor.py`
-
-## Improvement ideas
-- improve the code quality
-- remove unnecessary comments
